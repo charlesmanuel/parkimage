@@ -123,9 +123,9 @@ if __name__ == "__main__":
     #add_cars(25, parkmap)
     #fix_image()
     num_spots = 48
-    inputfile = './inputsheets/d60c62s48.csv'
-    outputfolder = 'testoutput2'
-    outputgif = './smallish48.gif'
+    inputfile = './inputsheets/d60c66s48.csv'
+    outputfolder = 'testoutput'
+    outputgif = './c60s48.gif'
     read_sheet(num_spots, inputfile, outputfolder)
     create_gif(outputfolder, outputgif)
 
